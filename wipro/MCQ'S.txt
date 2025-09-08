@@ -1,0 +1,60 @@
+1.What is the primary use of Selenium WebDriver?
+a) Unit testing
+b) API Testing
+c) Web application automation
+d) Mobile testing
+
+2.How can you skip a test case in TestNG?
+a) @Test(enabled = false)
+b) @Ignore
+c) skipTest()
+d) @Test(skip=true)
+
+3.Which listener can be used to generate custom reports in TestNG?
+a) IReporter
+b) ITestListener
+c) ISuiteListener
+d) All of the above
+
+4.Which annotation is used to provide parameters from a method?
+a) @Parameters
+b) @DataProvider
+c) @Test
+d) @Param
+
+5.Which annotation is used for parameterized tests?
+a) @Test(parameters = {})
+b) @DataProvider
+c) Both a and b
+d) @ParameterizedTest
+
+6.What does Assert.assertTrue(condition) check?
+a) That condition is false
+b) That condition is true
+c) Compares two strings
+d) Validates a page title
+
+7.What is Log4j2 used for in Selenium?
+a) Automation
+b) Logging execution
+c) Running tests
+d) Data-driven testing
+
+8.How do you define a test suite in TestNG?
+a) Using @TestSuite
+b) Using testng.xml
+c) test.properties
+d) @Suite
+
+9.Which listener executes before/after a suite?
+a) ISuiteListener
+b) ITestListener
+c) IHookable
+d) None
+
+10.How do you run only a specific group of tests?
+a) Using @Group("name")
+b) Use include tag in testng.xml
+c) Run class manually
+d) Not possible
+

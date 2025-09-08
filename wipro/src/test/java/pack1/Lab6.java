@@ -12,8 +12,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Lab6 {
-    public static void main(String[] args) throws InterruptedException {
-
+public static void main(String[] args) throws InterruptedException {
         // Setup Chrome
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
@@ -121,10 +120,7 @@ public class Lab6 {
         WebElement checkoutBtn = wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Checkout")));
         checkoutBtn.click();
 
-
-
         // Step 19: Logout
-     // Step 19: Logout
         WebDriverWait wait11 = new WebDriverWait(driver, Duration.ofSeconds(10));
 
         // Click My Account to expand menu
@@ -134,9 +130,6 @@ public class Lab6 {
         // Wait for Logout link to be clickable
         WebElement logoutLink = wait11.until(ExpectedConditions.elementToBeClickable(By.linkText("Logout")));
         logoutLink.click();
-
-
-
         // Step 20: Verify Logout
         if (driver.getPageSource().contains("Account Logout")) {
             System.out.println("✅ Account Logout page displayed");

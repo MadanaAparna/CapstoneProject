@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\PROGRAMS\wipro\src\test\java\pack1\Lab6.java"/>
 			<item value="D:\PROGRAMS"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -45,12 +46,16 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="capstone_project"/>
+			<item value="Capstone_project"/>
 			<item value="Practice"/>
 			<item value="wipro"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="capstone_project"/>
+			<item value="Capstone_project"/>
 			<item value="Practice"/>
 			<item value="wipro"/>
 		</list>
